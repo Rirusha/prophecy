@@ -1,5 +1,5 @@
-data/launcher.desktop.in
-data/metainfo.appdata.xml.in
-src/Application.vala
-src/FortuneLabel.vala
-src/MainWindow.vala
+data/space.rirusha.prophecy.desktop.in
+data/space.rirusha.prophecy.metainfo.xml.in
+data/ui/window.blp
+src/about.vala
+src/fortune-label.vala

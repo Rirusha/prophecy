@@ -1,78 +1,54 @@
 project(
-  'com.github.cassidyjames.clairvoyant',
-  'vala', 'c',
+  'prophecy',
+  ['vala', 'c'],
   version: '3.1.8',
   meson_version: '>=1.5.1',
+  license: 'GPL-3.0-or-later',
 )
 
 gnome = import('gnome')
 i18n = import('i18n')
 
-add_global_arguments('-DGETTEXT_PACKAGE="@0@"'.format(meson.project_name()), language:'c')
+glib2_dep = dependency('glib-2.0', version: '>=2.82.0')
+gtk4_dep = dependency('gtk4', version: '>=4.16.1')
+libadwaita_dep = dependency('libadwaita-1', version: '>=1.6.0')
+
+dependencies = [
+  glib2_dep,
+  gtk4_dep,
+  libadwaita_dep
+]
 
 add_project_arguments(
-  ['--vapidir', meson.current_source_dir() / 'vapi'],
-  language: 'vala'
+  '-include', 'config.h',
+  language: ['c']
 )
 
-conf = configuration_data()
-# Get the package data directory under Meson
-pkgdatadir = join_paths([
-  get_option('prefix'),
-  get_option('datadir'),
-  meson.project_name()
-])
-conf.set_quoted('APP_ID', meson.project_name())
-conf.set_quoted('VERSION', meson.project_version())
-conf.set_quoted('PKGDATADIR', pkgdatadir)
-conf.set_quoted('LOCALEDIR', join_paths(get_option('prefix'), get_option('localedir')))
+add_project_arguments(
+  '--target-glib', '2.76',
+  '--vapidir', meson.current_source_dir(),
+  language: ['vala']
+)
 
-# Other configs
+app_id = 'space.rirusha.prophecy'
+
+conf = configuration_data()
+conf.set_quoted('APP_ID', app_id)
+conf.set_quoted('VERSION', meson.project_version())
+conf.set_quoted('G_LOG_DOMAIN', meson.project_name())
 conf.set_quoted('GETTEXT_PACKAGE', meson.project_name())
-add_global_arguments('-DDATADIR="' + get_option('datadir') + '"', language: 'c')
+conf.set_quoted('DATADIR', get_option('prefix') / get_option('datadir'))
+conf.set_quoted('GNOMELOCALEDIR', get_option('prefix') / get_option('localedir'))
+
 configure_file(output: 'config.h', configuration: conf)
 config_h_dir = include_directories('.')
 
-# Arguments for C
-c_args = [
-  '-include', 'config.h',
-  '-w'
-]
+subdir ('po')
+subdir ('data')
+subdir ('src')
 
-# Arguments for Vala
-vala_args = ['--target-glib=2.50', meson.project_source_root() + '/src/config.vapi']
-
-asresources = gnome.compile_resources(
-  'as-resources',
-  'data' / 'gresource.xml',
-  source_dir: 'data',
-  c_name: 'as'
+gnome.post_install(
+  glib_compile_schemas: true,
+  gtk_update_icon_cache: true,
+  update_desktop_database: true,
 )
-
-config_file = configure_file(
-  input: 'src/Config.vala.in',
-  output: '@BASENAME@',
-  configuration: conf
-)
-
-executable(
-  meson.project_name(),
-  'src' / 'Application.vala',
-  'src' / 'FortuneLabel.vala',
-  'src' / 'MainWindow.vala',
-  asresources,
-  config_file,
-  dependencies: [
-    dependency('glib-2.0', version: '>=2.82.0'),
-    dependency('gtk4', version: '>=4.16.1'),
-    dependency('libadwaita-1', version: '>=1.6.0'),
-    dependency('libportal', version: '>=0.8.1'),
-  ],
-  c_args: c_args, vala_args: vala_args,
-  install: true
-)
-
-subdir('data')
-subdir('po')
-
-meson.add_install_script('build-aux' / 'meson'/ 'post_install.py')

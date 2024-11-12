@@ -6,13 +6,13 @@
   xmlns:gnome="http://api.gnome.org/doap-extensions#"
   xmlns="http://usefulinc.com/ns/doap#"
 >
-  <name>Clairvoyant</name>
+  <name>Prophecy</name>
   <shortdesc xml:lang="en">Ask questions, get psychic answers</shortdesc>
-  <description xml:lang="en">Does he love you? Should you have pizza for dinner? Is there such thing as a stupid question? Discover the answers to these questions and more with Clairvoyant, the magic 8-ball inspired fortune teller.</description>
+  <description xml:lang="en">Does he love you? Should you have pizza for dinner? Is there such thing as a stupid question? Discover the answers to these questions and more with Prophecy, the magic 8-ball inspired fortune teller.</description>
   <category rdf:resource="http://api.gnome.org/doap-extensions#apps" />
 
   <homepage rdf:resource="https://cassidyjames.com/apps" />
-  <download-page rdf:resource="https://flathub.org/apps/com.github.cassidyjames.clairvoyant" />
+  <download-page rdf:resource="https://flathub.org/apps/space.rirusha.prophecy" />
   <bug-database rdf:resource="https://github.com/cassidyjames/clairvoyant/issues" />
 
   <programming-language>Vala</programming-language>

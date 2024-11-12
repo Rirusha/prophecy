@@ -21,7 +21,7 @@ body:
     id: version
     attributes:
       label: App version
-      description: Copy from Clairvoyant by going to About, then selecting the version nunber
+      description: Copy from Prophecy by going to About, then selecting the version nunber
     validations:
       required: true
   - type: input
@@ -34,7 +34,7 @@ body:
     id: packaging
     attributes:
       label: Packaging/distribution
-      description: Where did you get Clairvoyant?
+      description: Where did you get Prophecy?
       options:
         - Compiled from source
         - Flatpak (Flathub)

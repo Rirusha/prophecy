@@ -1,17 +1,33 @@
 /*
+ * Copyright 2018–2024 Cassidy James Blaede <c@ssidyjam.es>
+ * Copyright 2024 Vladimir Vaskov <rirusha@altlinux.org>
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, version 3
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ *
  * SPDX-License-Identifier: GPL-3.0-or-later
- * SPDX-FileCopyrightText: 2018–2024 Cassidy James Blaede <c@ssidyjam.es>
  */
 
-public class FortuneLabel : Gtk.Box {
-    public Gtk.Stack stack;
+[GtkTemplate (ui = "/space/rirusha/prophecy/ui/fortune-label.ui")]
+public class Prophecy.FortuneLabel : Adw.Bin {
 
-    private struct Content {
+    [GtkChild]
+    unowned Gtk.Stack stack;
+
+    struct Content {
         string title;
         string css_class;
     }
 
-    static Content[] content = {
+    static Content[] contents = {
         Content () {
             ///TRANSLATORS: Positive response, the thing is certain to happen
             title = _("It is certain."),
@@ -153,38 +169,29 @@ public class FortuneLabel : Gtk.Box {
         },
     };
 
-    public FortuneLabel () {
-        Object ();
-    }
-
     construct {
-        stack = new Gtk.Stack () {
-            transition_type = Gtk.StackTransitionType.CROSSFADE,
-        };
-
-        int i = 1;
-        foreach (var fortune in content) {
-            var title_label = new Gtk.Label (fortune.title) {
-                selectable = true
+        for (int i = 0; i < contents.length; i++) {
+            var title_label = new Gtk.Label (contents[i].title) {
+                css_classes = { "title-1", contents[i].css_class },
+                selectable = true,
+                wrap = true,
+                wrap_mode = Pango.WrapMode.WORD,
+                justify = Gtk.Justification.CENTER,
             };
-            title_label.add_css_class ("title-1");
-            title_label.add_css_class (fortune.css_class);
 
-            var box = new Gtk.Box (Gtk.Orientation.VERTICAL, 0) {
-                margin_start = 24,
-                margin_end = 24,
-            };
-            box.halign = Gtk.Align.CENTER;
-            box.append (title_label);
-
-            stack.add_named (box, i.to_string ());
-
-            i++;
+            stack.add_named (title_label, i.to_string ());
         }
 
-        var rand = Random.int_range (1, 29);
-        stack.visible_child_name = rand.to_string ();
+        stack.visible_child_name = Random.int_range (0, contents.length).to_string ();
+    }
 
-        append (stack);
+    public void randomize () {
+        string new_rand = stack.visible_child_name;
+
+        while (new_rand == stack.visible_child_name) {
+            new_rand = Random.int_range (0, contents.length).to_string ();
+        }
+
+        stack.visible_child_name = new_rand;
     }
 }

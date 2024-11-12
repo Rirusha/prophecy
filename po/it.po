@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version:  com.github.cassidyjames.clairvoyant\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-23 21:49-0600\n"
+"POT-Creation-Date: 2024-11-12 18:06+0300\n"
 "PO-Revision-Date: 2023-03-17 23:21+0100\n"
 "Last-Translator: Davide Ferracin <davide.ferracin@protonmail.com>\n"
 "Language-Team: Italian\n"
@@ -21,232 +21,243 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.11.0\n"
 
-#: data/launcher.desktop.in:3 data/metainfo.appdata.xml.in:8
-msgid "Clairvoyant"
-msgstr "Clairvoyant"
+#: data/space.rirusha.prophecy.desktop.in:3
+#: data/space.rirusha.prophecy.metainfo.xml.in:8 data/ui/window.blp:7
+#: src/about.vala:21
+msgid "Prophecy"
+msgstr ""
 
-#: data/launcher.desktop.in:4
+#: data/space.rirusha.prophecy.desktop.in:4
 msgid "Fortune Teller"
 msgstr "Indovino"
 
-#: data/launcher.desktop.in:5 data/metainfo.appdata.xml.in:9
+#: data/space.rirusha.prophecy.desktop.in:5
+#: data/space.rirusha.prophecy.metainfo.xml.in:9
 msgid "Ask questions, get psychic answers"
 msgstr "Fai domande e ottieni risposte psichiche"
 
-#: data/launcher.desktop.in:11
+#: data/space.rirusha.prophecy.desktop.in:11
 msgid "magic;eight;ball;8;crystal;🔮;medium;🎱;"
 msgstr "magica;otto;palla;8;cristallo;🔮;medium;🎱;"
 
-#: data/metainfo.appdata.xml.in:15 data/metainfo.appdata.xml.in:17
-msgid "Cassidy James Blaede"
-msgstr "Cassidy James Blaede"
+#: data/space.rirusha.prophecy.metainfo.xml.in:16
+msgid "Vladimir Vaskov"
+msgstr ""
 
-#: data/metainfo.appdata.xml.in:21
+#: data/space.rirusha.prophecy.metainfo.xml.in:20
+#, fuzzy
 msgid ""
 "Does he love you? Should you have pizza for dinner? Is there such thing as a "
 "stupid question? Discover the answers to these questions and more with "
-"Clairvoyant, the magic 8-ball inspired fortune teller."
+"Prophecy, the magic 8-ball inspired fortune teller."
 msgstr ""
 "Lui ti ama? Dovresti mangiare la pizza per cena? Esistono domande stupide? "
 "Scopri le risposte a queste e altre domande con Clairvoyant, l'indovino "
 "ispirato alla palla 8 magica."
 
-#: data/metainfo.appdata.xml.in:23
-msgid "Ask a question, then open Clairvoyant for an answer."
+#: data/space.rirusha.prophecy.metainfo.xml.in:22
+#, fuzzy
+msgid "Ask a question, then open Prophecy for an answer."
 msgstr "Fai una domanda, quindi apri Clairvoyant per una risposta."
 
-#: data/metainfo.appdata.xml.in:24
+#: data/space.rirusha.prophecy.metainfo.xml.in:23
 msgid "Not satisfied? Ask again, then hit \"Ask Again\" to try again."
 msgstr ""
 "Non soddisfatto? Chiedi di nuovo, quindi premi «Chiedi ancora» per riprovare."
 
-#: data/metainfo.appdata.xml.in:25
+#: data/space.rirusha.prophecy.metainfo.xml.in:24
 msgid "Do what you'd like with the answers—just don't shoot the messenger!"
 msgstr ""
 "Faʼ quello che vuoi con le risposte, ma ricorda, ambasciator non porta pena!"
 
-#: data/metainfo.appdata.xml.in:36 data/metainfo.appdata.xml.in:48
+#: data/space.rirusha.prophecy.metainfo.xml.in:35
+#: data/space.rirusha.prophecy.metainfo.xml.in:47
 #, fuzzy
 msgid "A positive answer, “Without a doubt.”"
 msgstr "Ci puoi fare affidamento."
 
-#: data/metainfo.appdata.xml.in:40 data/metainfo.appdata.xml.in:52
+#: data/space.rirusha.prophecy.metainfo.xml.in:39
+#: data/space.rirusha.prophecy.metainfo.xml.in:51
 #, fuzzy
 msgid "A neutral answer, “Reply hazy, try again.”"
 msgstr "Risposta dubbiosa, riprova."
 
-#: data/metainfo.appdata.xml.in:44 data/metainfo.appdata.xml.in:56
+#: data/space.rirusha.prophecy.metainfo.xml.in:43
+#: data/space.rirusha.prophecy.metainfo.xml.in:55
 #, fuzzy
 msgid "A negative answer, “My reply is no.”"
 msgstr "Le prospettive non sono così buone."
 
-#: data/metainfo.appdata.xml.in:64
+#: data/space.rirusha.prophecy.metainfo.xml.in:63
 msgid "GNOME 47 “Denver”"
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:66
+#: data/space.rirusha.prophecy.metainfo.xml.in:65
 msgid "Fresh new adaptive look powered by GNOME accent colors!"
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:67
+#: data/space.rirusha.prophecy.metainfo.xml.in:66
 #, fuzzy
 msgid "Updated with the latest GNOME 47 platform and Adwaita 1.6"
 msgstr "Aggiornato per OS 6 e Flatpak"
 
-#: data/metainfo.appdata.xml.in:68
+#: data/space.rirusha.prophecy.metainfo.xml.in:67
 #, fuzzy
 msgid "Updated Croatian translations thanks to Milo Ivir"
 msgstr "Traduzione in spagnolo grazie a @kevincos5"
 
-#: data/metainfo.appdata.xml.in:74
+#: data/space.rirusha.prophecy.metainfo.xml.in:73
 msgid "No foolin'"
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:76
+#: data/space.rirusha.prophecy.metainfo.xml.in:75
 msgid "Updated brand colors for Flathub and app store clients"
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:77
+#: data/space.rirusha.prophecy.metainfo.xml.in:76
 #, fuzzy
 msgid "Updated for GNOME 46 and Adwaita 1.5"
 msgstr "Aggiornato per OS 6 e Flatpak"
 
-#: data/metainfo.appdata.xml.in:78
+#: data/space.rirusha.prophecy.metainfo.xml.in:77
 #, fuzzy
 msgid "Norwegian Bokmål translations thanks to Brage Fuglseth"
 msgstr "Traduzione in francese grazie a @NathanBnm"
 
-#: data/metainfo.appdata.xml.in:84
+#: data/space.rirusha.prophecy.metainfo.xml.in:83
 msgid "Added brand colors for Flathub and app store clients"
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:89 data/metainfo.appdata.xml.in:107
-#: data/metainfo.appdata.xml.in:127
+#: data/space.rirusha.prophecy.metainfo.xml.in:88
+#: data/space.rirusha.prophecy.metainfo.xml.in:106
+#: data/space.rirusha.prophecy.metainfo.xml.in:126
 msgid "Updated translations"
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:91 data/metainfo.appdata.xml.in:112
-#: data/metainfo.appdata.xml.in:130
+#: data/space.rirusha.prophecy.metainfo.xml.in:90
+#: data/space.rirusha.prophecy.metainfo.xml.in:111
+#: data/space.rirusha.prophecy.metainfo.xml.in:129
 #, fuzzy
 msgid "Updated Russian translations thanks to Sergej A. (@Ser82-png on GitHub)"
 msgstr "Traduzione in francese grazie a @NathanBnm"
 
-#: data/metainfo.appdata.xml.in:97
+#: data/space.rirusha.prophecy.metainfo.xml.in:96
 msgid "Under-the-hood fixes"
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:99
+#: data/space.rirusha.prophecy.metainfo.xml.in:98
 msgid "More consistent URLs in the About window and metadata"
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:100
+#: data/space.rirusha.prophecy.metainfo.xml.in:99
 msgid "Fixed icon by removing subtle texture"
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:101
+#: data/space.rirusha.prophecy.metainfo.xml.in:100
 msgid "Improvements for GNOME Circle"
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:109
+#: data/space.rirusha.prophecy.metainfo.xml.in:108
 #, fuzzy
 msgid ""
 "Brazilian Portuguese translations thanks to Elder Martins (@eldermartins on "
 "GitHub)"
 msgstr "Traduzione in spagnolo grazie a @kevincos5"
 
-#: data/metainfo.appdata.xml.in:110
+#: data/space.rirusha.prophecy.metainfo.xml.in:109
 #, fuzzy
 msgid ""
 "Chinese Traditional translations thanks to Oliver Tzeng (@olivertzeng on "
 "GitHub)"
 msgstr "Traduzione in spagnolo grazie a @kevincos5"
 
-#: data/metainfo.appdata.xml.in:111
+#: data/space.rirusha.prophecy.metainfo.xml.in:110
 #, fuzzy
 msgid "Updated Ukrainian translations thanks to Volkov (@Vovkiv on GitHub)"
 msgstr "Traduzione in spagnolo grazie a @kevincos5"
 
-#: data/metainfo.appdata.xml.in:113 data/metainfo.appdata.xml.in:139
+#: data/space.rirusha.prophecy.metainfo.xml.in:112
+#: data/space.rirusha.prophecy.metainfo.xml.in:138
 #, fuzzy
 msgid "Updated French translations thanks to @rene-coty on GitHub"
 msgstr "Traduzione in francese grazie a @NathanBnm"
 
-#: data/metainfo.appdata.xml.in:114
+#: data/space.rirusha.prophecy.metainfo.xml.in:113
 #, fuzzy
 msgid ""
 "Updated Turkish translations thanks to Sabri Ünal (@sabriunal on GitHub)"
 msgstr "Traduzione in francese grazie a @NathanBnm"
 
-#: data/metainfo.appdata.xml.in:115
+#: data/space.rirusha.prophecy.metainfo.xml.in:114
 #, fuzzy
 msgid ""
 "Updated Brazilian Portuguese translations thanks to Rafael Fontenelle "
 "(@rffontenelle on GitHub)"
 msgstr "Traduzione in spagnolo grazie a @kevincos5"
 
-#: data/metainfo.appdata.xml.in:121
+#: data/space.rirusha.prophecy.metainfo.xml.in:120
 msgid "Deep Purple"
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:123
+#: data/space.rirusha.prophecy.metainfo.xml.in:122
 msgid "New look inspired by the deep purples from the icon"
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:124
+#: data/space.rirusha.prophecy.metainfo.xml.in:123
 msgid "More information in the About window"
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:125
+#: data/space.rirusha.prophecy.metainfo.xml.in:124
 #, fuzzy
 msgid "Updated for GNOME 45 and Adwaita 1.4"
 msgstr "Aggiornato per OS 6 e Flatpak"
 
-#: data/metainfo.appdata.xml.in:129
+#: data/space.rirusha.prophecy.metainfo.xml.in:128
 #, fuzzy
 msgid "Ukrainian translations thanks to Volkov (@Vovkiv on GitHub)"
 msgstr "Traduzione in spagnolo grazie a @kevincos5"
 
-#: data/metainfo.appdata.xml.in:136
+#: data/space.rirusha.prophecy.metainfo.xml.in:135
 msgid "Translations and GNOME 44"
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:138
+#: data/space.rirusha.prophecy.metainfo.xml.in:137
 #, fuzzy
 msgid "German translations thanks to @FineFindus on GitHub"
 msgstr "Traduzione in spagnolo grazie a @kevincos5"
 
-#: data/metainfo.appdata.xml.in:140
+#: data/space.rirusha.prophecy.metainfo.xml.in:139
 msgid ""
 "Updated Italian translations thanks to Davide Ferracin (@phaerrax on GitHub)"
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:141
+#: data/space.rirusha.prophecy.metainfo.xml.in:140
 msgid ""
 "Updated Occitan translations thanks to Quentin PAGÈS (@Mejans on GitHub)"
 msgstr ""
 
-#: data/metainfo.appdata.xml.in:142
+#: data/space.rirusha.prophecy.metainfo.xml.in:141
 #, fuzzy
 msgid "Updated to the latest GNOME runtime"
 msgstr "Runtime aggiornato a GNOME 43"
 
-#: data/metainfo.appdata.xml.in:148
+#: data/space.rirusha.prophecy.metainfo.xml.in:147
 msgid "Update for GNOME Circle consideration"
 msgstr "Aggiornamento per la presa in considerazione nel Circolo di GNOME"
 
-#: data/metainfo.appdata.xml.in:150
+#: data/space.rirusha.prophecy.metainfo.xml.in:149
 msgid "Close with Ctrl+Q and Ctrl+W"
 msgstr "Possibilità di chiudere con Ctrl+Q e Ctrl+W"
 
-#: data/metainfo.appdata.xml.in:151
+#: data/space.rirusha.prophecy.metainfo.xml.in:150
 msgid "Selectable answer for improved accessibility"
 msgstr "Risposte selezionabili per un'accessibilità migliore"
 
-#: data/metainfo.appdata.xml.in:152
+#: data/space.rirusha.prophecy.metainfo.xml.in:151
 msgid "Shorter summary for app listing"
 msgstr "Sommario più breve da usare negli elenchi di app"
 
-#: data/metainfo.appdata.xml.in:158
+#: data/space.rirusha.prophecy.metainfo.xml.in:157
 msgid ""
 "Subtly improved icon; it should be more visible in the app grid, dash, and "
 "anywhere else with a dark background"
@@ -254,23 +265,23 @@ msgstr ""
 "Icona leggermente migliorata; dovrebbe apparire più visibile nella griglia "
 "delle applicazioni, nella dash, e ovunque ci sia uno sfondo scuro"
 
-#: data/metainfo.appdata.xml.in:163
+#: data/space.rirusha.prophecy.metainfo.xml.in:162
 msgid "Hotfix: fix About window when closing and re-opening it"
 msgstr "Correzione alla finestra Informazioni"
 
-#: data/metainfo.appdata.xml.in:168
+#: data/space.rirusha.prophecy.metainfo.xml.in:167
 msgid "More fun for everyone"
 msgstr "Più divertimento per tutti"
 
-#: data/metainfo.appdata.xml.in:170
+#: data/space.rirusha.prophecy.metainfo.xml.in:169
 msgid "Added eight more original replies"
 msgstr "Aggiunte altre otto risposte originali"
 
-#: data/metainfo.appdata.xml.in:171
+#: data/space.rirusha.prophecy.metainfo.xml.in:170
 msgid "Added “About” window"
 msgstr "Aggiunta finestra Informazioni"
 
-#: data/metainfo.appdata.xml.in:172
+#: data/space.rirusha.prophecy.metainfo.xml.in:171
 msgid ""
 "Improvements to developer tools to make translations easier to keep up to "
 "date"
@@ -278,270 +289,268 @@ msgstr ""
 "Miglioramenti agli strumenti per sviluppatori, per rendere le traduzioni più "
 "facili da aggiornare"
 
-#: data/metainfo.appdata.xml.in:173
+#: data/space.rirusha.prophecy.metainfo.xml.in:172
 msgid "Italian translations thanks to Albano Battistella"
 msgstr "Traduzione in italiano grazie a Albano Battistella"
 
-#: data/metainfo.appdata.xml.in:174
+#: data/space.rirusha.prophecy.metainfo.xml.in:173
 msgid "Updated runtime to GNOME 43"
 msgstr "Runtime aggiornato a GNOME 43"
 
-#: data/metainfo.appdata.xml.in:180
+#: data/space.rirusha.prophecy.metainfo.xml.in:179
 msgid ""
 "Hotfix: fix a crash on startup from trying to access nonexistent settings"
 msgstr ""
 "Correzione ad un crash che avveniva all'avvio cercando di accedere a "
 "impostazioni che non esistevano"
 
-#: data/metainfo.appdata.xml.in:185
+#: data/space.rirusha.prophecy.metainfo.xml.in:184
 msgid "Hello, GNOME"
 msgstr "Ciao, GNOME"
 
-#: data/metainfo.appdata.xml.in:187
+#: data/space.rirusha.prophecy.metainfo.xml.in:186
 msgid "Whole new UI"
 msgstr "Una interfaccia utente tutta nuova"
 
-#: data/metainfo.appdata.xml.in:188
+#: data/space.rirusha.prophecy.metainfo.xml.in:187
 msgid "elementary → GNOME styling"
 msgstr "Passaggio di stile da elementary a GNOME"
 
-#: data/metainfo.appdata.xml.in:189
+#: data/space.rirusha.prophecy.metainfo.xml.in:188
 msgid ""
 "Technical upgrade to the latest GNOME platform including GTK4 and LibAdwaita"
 msgstr ""
 "Aggiornamento tecnico all'ultima piattaforma GNOME, inclusi GTK4 e LibAdwaita"
 
-#: data/metainfo.appdata.xml.in:195
+#: data/space.rirusha.prophecy.metainfo.xml.in:194
 msgid "Hello, Odin"
 msgstr "Ciao, Odin"
 
-#: data/metainfo.appdata.xml.in:197
+#: data/space.rirusha.prophecy.metainfo.xml.in:196
 msgid "Updated for OS 6 and Flatpak"
 msgstr "Aggiornato per OS 6 e Flatpak"
 
-#: data/metainfo.appdata.xml.in:198
+#: data/space.rirusha.prophecy.metainfo.xml.in:197
 msgid "Turkish translations thanks to Safak GENISOL"
 msgstr "Traduzione in turco grazie a Safak GENISOL"
 
-#: data/metainfo.appdata.xml.in:199
+#: data/space.rirusha.prophecy.metainfo.xml.in:198
 msgid "Portuguese translations thanks to André Barata"
 msgstr "Traduzione in portoghese grazie a André Barata"
 
-#: data/metainfo.appdata.xml.in:200
+#: data/space.rirusha.prophecy.metainfo.xml.in:199
 msgid "Spanish translations thanks to @kevincos5"
 msgstr "Traduzione in spagnolo grazie a @kevincos5"
 
-#: data/metainfo.appdata.xml.in:206
+#: data/space.rirusha.prophecy.metainfo.xml.in:205
 msgid "Refreshed icons thanks to Micah Ilbery"
 msgstr "Icone ridisegnate grazie a Micah Ilbery"
 
-#: data/metainfo.appdata.xml.in:211
+#: data/space.rirusha.prophecy.metainfo.xml.in:210
 msgid "Polish translations thanks to Michał Nowakowski"
 msgstr "Traduzione in polacco grazie a Michał Nowakowski"
 
-#: data/metainfo.appdata.xml.in:216
+#: data/space.rirusha.prophecy.metainfo.xml.in:215
 msgid "Dutch translations thanks to Heimen Stoffels"
 msgstr "Traduzione in olandese grazie a Heimen Stoffels"
 
-#: data/metainfo.appdata.xml.in:221
+#: data/space.rirusha.prophecy.metainfo.xml.in:220
 msgid "French translations thanks to @NathanBnm"
 msgstr "Traduzione in francese grazie a @NathanBnm"
 
-#: data/metainfo.appdata.xml.in:226
-msgid "Clairvoyant is now translatable."
+#: data/space.rirusha.prophecy.metainfo.xml.in:225
+#, fuzzy
+msgid "Prophecy is now translatable."
 msgstr "Clairvoyant ora si può tradurre."
 
-#: data/metainfo.appdata.xml.in:231
+#: data/space.rirusha.prophecy.metainfo.xml.in:230
 msgid "Happy new year! This release contains AppData fixes."
 msgstr "Buon anno! Questa nuova versione contiene correzioni ad AppData."
 
-#: data/metainfo.appdata.xml.in:236
+#: data/space.rirusha.prophecy.metainfo.xml.in:235
 msgid "Fix 48px icon"
 msgstr "Corretta icona 48px"
 
-#: data/metainfo.appdata.xml.in:241
+#: data/space.rirusha.prophecy.metainfo.xml.in:240
 msgid "Post-release update"
 msgstr "Aggiornamento post nuova versione"
 
-#: data/metainfo.appdata.xml.in:243
+#: data/space.rirusha.prophecy.metainfo.xml.in:242
 msgid "Clean up AppStream data"
 msgstr "Pulizia dei dati AppStream"
 
-#: data/metainfo.appdata.xml.in:244
+#: data/space.rirusha.prophecy.metainfo.xml.in:243
 msgid "Expand on the description"
 msgstr "Espansione della descrizione"
 
-#: data/metainfo.appdata.xml.in:245
+#: data/space.rirusha.prophecy.metainfo.xml.in:244
 msgid "Change price to $1"
 msgstr "Modifica del prezzo in 1$"
 
 #. /TRANSLATORS: Positive response
-#: data/metainfo.appdata.xml.in:251 src/FortuneLabel.vala:22
+#: data/space.rirusha.prophecy.metainfo.xml.in:250 src/fortune-label.vala:38
 msgid "It is decidedly so."
 msgstr "È decisamente così."
 
-#: data/metainfo.appdata.xml.in:253
+#: data/space.rirusha.prophecy.metainfo.xml.in:252
 msgid "Initial release"
 msgstr "Versione iniziale"
 
-#. /TRANSLATORS: Positive response, the thing is certain to happen
-#: src/FortuneLabel.vala:17
-msgid "It is certain."
-msgstr "È certo."
+#: data/ui/window.blp:37
+msgid "Ask Again"
+msgstr "Chiedi di nuovo"
 
-#. /TRANSLATORS: Positive response
-#: src/FortuneLabel.vala:27
-msgid "Without a doubt."
-msgstr "Senza dubbio."
-
-#. /TRANSLATORS: Positive response, the thing is certain to happen
-#: src/FortuneLabel.vala:32
-msgid "Yes—definitely."
-msgstr "Sì, sicuramente."
-
-#. /TRANSLATORS: Positive response
-#: src/FortuneLabel.vala:37
-msgid "You may rely on it."
-msgstr "Ci puoi fare affidamento."
-
-#. /TRANSLATORS: Positive response
-#: src/FortuneLabel.vala:42
-msgid "As I see it, yes."
-msgstr "Per come la vedo io, sì."
-
-#. /TRANSLATORS: Positive response
-#: src/FortuneLabel.vala:47
-msgid "Most likely."
-msgstr "Molto probabilmente."
-
-#. /TRANSLATORS: Positive response
-#: src/FortuneLabel.vala:52
-msgid "Outlook good."
-msgstr "Ci sono buone prospettive."
-
-#. /TRANSLATORS: Positive response
-#: src/FortuneLabel.vala:57
-msgid "Yes."
-msgstr "Sì."
-
-#. /TRANSLATORS: Positive response
-#: src/FortuneLabel.vala:62
-msgid "Signs point to yes."
-msgstr "I segnali indicano di sì."
-
-#. /TRANSLATORS: Positive response, casual
-#: src/FortuneLabel.vala:67
-msgid "Yep!"
-msgstr "Già!"
-
-#. /TRANSLATORS: Positive response
-#: src/FortuneLabel.vala:72
-msgid "Absolutely!"
-msgstr "Assolutamente!"
-
-#. /TRANSLATORS: Positive response, casual
-#: src/FortuneLabel.vala:77
-msgid "You bet!"
-msgstr "Puoi scommetterci!"
-
-#: src/FortuneLabel.vala:81
-msgid "Confirmed."
-msgstr "Confermato."
-
-#. /TRANSLATORS: Negative response
-#: src/FortuneLabel.vala:86
-msgid "Don’t count on it."
-msgstr "Non ci contare."
-
-#. /TRANSLATORS: Negative response
-#: src/FortuneLabel.vala:91
-msgid "My reply is no."
-msgstr "La mia risposta è no."
-
-#. /TRANSLATORS: Negative response, referring to the 8-ball's "sources"
-#: src/FortuneLabel.vala:96
-msgid "My sources say no."
-msgstr "Le mie fonti dicono di no."
-
-#. /TRANSLATORS: Negative response
-#: src/FortuneLabel.vala:101
-msgid "Outlook not so good."
-msgstr "Le prospettive non sono così buone."
-
-#. /TRANSLATORS: Negative response
-#: src/FortuneLabel.vala:106
-msgid "Very doubtful."
-msgstr "Molto incerto."
-
-#. /TRANSLATORS: Negative response, casual
-#: src/FortuneLabel.vala:111
-msgid "Naw."
-msgstr "Nah."
-
-# Is this a Star Wars quote?
-#. /TRANSLATORS: Negative response; reference to the recurring Star Wars line
-#: src/FortuneLabel.vala:116
-msgid "I’ve got a bad feeling about this…"
-msgstr "Ho un brutto presentimento…"
-
-#. /TRANSLATORS: Neutral response
-#: src/FortuneLabel.vala:121
-msgid "Reply hazy, try again."
-msgstr "Risposta dubbiosa, riprova."
-
-#. /TRANSLATORS: Neutral response
-#: src/FortuneLabel.vala:126
-msgid "Ask again later."
-msgstr "Richiedilo più tardi."
-
-#. /TRANSLATORS: Neutral response
-#: src/FortuneLabel.vala:131
-msgid "Better not tell you now."
-msgstr "Meglio non dirtelo adesso."
-
-#. /TRANSLATORS: Neutral response
-#: src/FortuneLabel.vala:136
-msgid "Cannot predict now."
-msgstr "Non posso prevederlo ora."
-
-#. /TRANSLATORS: Neutral response
-#: src/FortuneLabel.vala:141
-msgid "Concentrate and ask again."
-msgstr "Concentrati e chiedi di nuovo."
-
-# This is most certainly a Yoda-like quote.
-#. /TRANSLATORS: Neutral response; reference to a line from Yoda from Star Wars
-#: src/FortuneLabel.vala:146
-msgid "Impossible to see, the future is."
-msgstr "Difficile da vedere, il futuro è."
-
-#. /TRANSLATORS: Neutral response; a play on the "404 Page Not Found" web browser error code
-#: src/FortuneLabel.vala:151
-msgid "404 Answer Not Found"
-msgstr "Errore 404: risposta non trovata"
-
-#: src/MainWindow.vala:19
-msgid "About"
-msgstr "Informazioni"
-
-#. / The translator credits. Please translate this with your name(s).
-#: src/MainWindow.vala:30
+#. Translators: NAME <EMAIL.COM> /n NAME <EMAIL.COM>
+#: src/about.vala:31
 msgid "translator-credits"
 msgstr ""
 "Albano Battistella <albano_battistella@hotmail.com>\n"
 "Davide Ferracin <davide.ferracin@protonmail.com>"
 
-#: src/MainWindow.vala:52
-msgid "Ask Again"
-msgstr "Chiedi di nuovo"
+#. /TRANSLATORS: Positive response, the thing is certain to happen
+#: src/fortune-label.vala:33
+msgid "It is certain."
+msgstr "È certo."
 
-#: src/MainWindow.vala:59
-msgid "Unsupported version of this app"
-msgstr ""
+#. /TRANSLATORS: Positive response
+#: src/fortune-label.vala:43
+msgid "Without a doubt."
+msgstr "Senza dubbio."
 
-#: src/MainWindow.vala:60
-msgid "_Learn More…"
-msgstr ""
+#. /TRANSLATORS: Positive response, the thing is certain to happen
+#: src/fortune-label.vala:48
+msgid "Yes—definitely."
+msgstr "Sì, sicuramente."
+
+#. /TRANSLATORS: Positive response
+#: src/fortune-label.vala:53
+msgid "You may rely on it."
+msgstr "Ci puoi fare affidamento."
+
+#. /TRANSLATORS: Positive response
+#: src/fortune-label.vala:58
+msgid "As I see it, yes."
+msgstr "Per come la vedo io, sì."
+
+#. /TRANSLATORS: Positive response
+#: src/fortune-label.vala:63
+msgid "Most likely."
+msgstr "Molto probabilmente."
+
+#. /TRANSLATORS: Positive response
+#: src/fortune-label.vala:68
+msgid "Outlook good."
+msgstr "Ci sono buone prospettive."
+
+#. /TRANSLATORS: Positive response
+#: src/fortune-label.vala:73
+msgid "Yes."
+msgstr "Sì."
+
+#. /TRANSLATORS: Positive response
+#: src/fortune-label.vala:78
+msgid "Signs point to yes."
+msgstr "I segnali indicano di sì."
+
+#. /TRANSLATORS: Positive response, casual
+#: src/fortune-label.vala:83
+msgid "Yep!"
+msgstr "Già!"
+
+#. /TRANSLATORS: Positive response
+#: src/fortune-label.vala:88
+msgid "Absolutely!"
+msgstr "Assolutamente!"
+
+#. /TRANSLATORS: Positive response, casual
+#: src/fortune-label.vala:93
+msgid "You bet!"
+msgstr "Puoi scommetterci!"
+
+#: src/fortune-label.vala:97
+msgid "Confirmed."
+msgstr "Confermato."
+
+#. /TRANSLATORS: Negative response
+#: src/fortune-label.vala:102
+msgid "Don’t count on it."
+msgstr "Non ci contare."
+
+#. /TRANSLATORS: Negative response
+#: src/fortune-label.vala:107
+msgid "My reply is no."
+msgstr "La mia risposta è no."
+
+#. /TRANSLATORS: Negative response, referring to the 8-ball's "sources"
+#: src/fortune-label.vala:112
+msgid "My sources say no."
+msgstr "Le mie fonti dicono di no."
+
+#. /TRANSLATORS: Negative response
+#: src/fortune-label.vala:117
+msgid "Outlook not so good."
+msgstr "Le prospettive non sono così buone."
+
+#. /TRANSLATORS: Negative response
+#: src/fortune-label.vala:122
+msgid "Very doubtful."
+msgstr "Molto incerto."
+
+#. /TRANSLATORS: Negative response, casual
+#: src/fortune-label.vala:127
+msgid "Naw."
+msgstr "Nah."
+
+# Is this a Star Wars quote?
+#. /TRANSLATORS: Negative response; reference to the recurring Star Wars line
+#: src/fortune-label.vala:132
+msgid "I’ve got a bad feeling about this…"
+msgstr "Ho un brutto presentimento…"
+
+#. /TRANSLATORS: Neutral response
+#: src/fortune-label.vala:137
+msgid "Reply hazy, try again."
+msgstr "Risposta dubbiosa, riprova."
+
+#. /TRANSLATORS: Neutral response
+#: src/fortune-label.vala:142
+msgid "Ask again later."
+msgstr "Richiedilo più tardi."
+
+#. /TRANSLATORS: Neutral response
+#: src/fortune-label.vala:147
+msgid "Better not tell you now."
+msgstr "Meglio non dirtelo adesso."
+
+#. /TRANSLATORS: Neutral response
+#: src/fortune-label.vala:152
+msgid "Cannot predict now."
+msgstr "Non posso prevederlo ora."
+
+#. /TRANSLATORS: Neutral response
+#: src/fortune-label.vala:157
+msgid "Concentrate and ask again."
+msgstr "Concentrati e chiedi di nuovo."
+
+# This is most certainly a Yoda-like quote.
+#. /TRANSLATORS: Neutral response; reference to a line from Yoda from Star Wars
+#: src/fortune-label.vala:162
+msgid "Impossible to see, the future is."
+msgstr "Difficile da vedere, il futuro è."
+
+#. /TRANSLATORS: Neutral response; a play on the "404 Page Not Found" web browser error code
+#: src/fortune-label.vala:167
+msgid "404 Answer Not Found"
+msgstr "Errore 404: risposta non trovata"
+
+#~ msgid "Clairvoyant"
+#~ msgstr "Clairvoyant"
+
+#~ msgid "Cassidy James Blaede"
+#~ msgstr "Cassidy James Blaede"
+
+#~ msgid "About"
+#~ msgstr "Informazioni"
 
 #, fuzzy
 #~ msgid "A positive answer, \"Signs point to yes.\""

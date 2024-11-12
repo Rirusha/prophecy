@@ -1,35 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Copyright 2018–2024 Cassidy James Blaede <c@ssidyjam.es> -->
 <component type="desktop">
-  <id>com.github.cassidyjames.clairvoyant</id>
+  <id>space.rirusha.prophecy</id>
   <metadata_license>CC0</metadata_license>
   <project_license>GPL-3.0-or-later</project_license>
 
-  <name>Clairvoyant</name>
+  <name>Prophecy</name>
   <summary>Ask questions, get psychic answers</summary>
   <branding>
     <color type="primary" scheme_preference="light">#deddda</color>
     <color type="primary" scheme_preference="dark">#3d3846</color>
   </branding>
 
-  <developer_name translatable="no">Cassidy James Blaede</developer_name>
-  <developer id="com.cassidyjames">
-    <name translatable="no">Cassidy James Blaede</name>
+  <developer id="space.rirusha">
+    <name translatable="no">Vladimir Vaskov</name>
   </developer>
 
   <description>
-    <p>Does he love you? Should you have pizza for dinner? Is there such thing as a stupid question? Discover the answers to these questions and more with Clairvoyant, the magic 8-ball inspired fortune teller.</p>
+    <p>Does he love you? Should you have pizza for dinner? Is there such thing as a stupid question? Discover the answers to these questions and more with Prophecy, the magic 8-ball inspired fortune teller.</p>
     <ul>
-      <li>Ask a question, then open Clairvoyant for an answer.</li>
+      <li>Ask a question, then open Prophecy for an answer.</li>
       <li>Not satisfied? Ask again, then hit "Ask Again" to try again.</li>
       <li>Do what you'd like with the answers—just don't shoot the messenger!</li>
     </ul>
   </description>
 
   <provides>
-    <binary>com.github.cassidyjames.clairvoyant</binary>
+    <binary>prophecy</binary>
   </provides>
-  <launchable type="desktop-id">com.github.cassidyjames.clairvoyant.desktop</launchable>
+  <launchable type="desktop-id">space.rirusha.prophecy.desktop</launchable>
 
   <screenshots>
     <screenshot type="default">
@@ -223,7 +222,7 @@
     </release>
     <release version="1.1.0" date="2019-01-25">
       <description>
-        <p>Clairvoyant is now translatable.</p>
+        <p>Prophecy is now translatable.</p>
       </description>
     </release>
     <release version="1.0.4" date="2019-01-04">
@@ -258,10 +257,8 @@
 
   <content_rating type="oars-1.1" />
 
-  <url type="homepage">https://cassidyjames.com/apps</url>
-  <url type="bugtracker">https://github.com/cassidyjames/clairvoyant/issues</url>
-  <url type="translate">https://github.com/cassidyjames/clairvoyant/tree/main/po#readme</url>
-  <url type="vcs-browser">https://github.com/cassidyjames/clairvoyant</url>
-  <url type="donation">https://cassidyjames.com/pay</url>
-  <url type="help">https://cassidyjames.com/support</url>
+  <url type="homepage">https://github.com/Rirusha/prophecy</url>
+  <url type="bugtracker">https://github.com/Rirusha/prophecy/issues</url>
+  <url type="translate">https://github.com/Rirusha/prophecy/tree/main/po#readme</url>
+  <url type="vcs-browser">https://github.com/Rirusha/prophecy</url>
 </component>

@@ -1,11 +1,10 @@
 [Desktop Entry]
-Name=Clairvoyant
+Name=Prophecy
 GenericName=Fortune Teller
 Comment=Ask questions, get psychic answers
 Categories=Utility;Amusement;
-Exec=com.github.cassidyjames.clairvoyant
-Icon=com.github.cassidyjames.clairvoyant
+Exec=space.rirusha.prophecy
+Icon=space.rirusha.prophecy
 Terminal=false
 Type=Application
 Keywords=magic;eight;ball;8;crystal;🔮;medium;🎱;
-

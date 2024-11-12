@@ -1,0 +1,46 @@
+using Gtk 4.0;
+using Adw 1;
+
+template $ProphecyWindow : Adw.ApplicationWindow {
+  width-request: 360;
+  height-request: 296;
+  title: _("Prophecy");
+
+  content: WindowHandle {
+    Adw.ToolbarView {
+      top-bar-style: flat;
+      bottom-bar-style: flat;
+
+      [top]
+      Adw.HeaderBar {
+        [start]
+        Button {
+          icon-name: "help-about-symbolic";
+          clicked => $on_about_clicked();
+        }
+      }
+
+      content: $ProphecyFortuneLabel fortune_label {
+        margin-bottom: 12;
+        margin-top: 12;
+        margin-start: 12;
+        margin-end: 12;
+      };
+
+      [bottom]
+      Button {
+        styles [
+          "suggested-action",
+          "pill"
+        ]
+
+        label: _("Ask Again");
+        halign: center;
+        hexpand: false;
+        margin-bottom: 24;
+        margin-top: 8;
+        clicked => $on_ask_clicked();
+      }
+    }
+  };
+}

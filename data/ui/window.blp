@@ -3,7 +3,7 @@ using Adw 1;
 
 template $ProphecyWindow : Adw.ApplicationWindow {
   width-request: 360;
-  height-request: 296;
+  height-request: 294;
   title: _("Prophecy");
 
   content: WindowHandle {
@@ -20,11 +20,16 @@ template $ProphecyWindow : Adw.ApplicationWindow {
         }
       }
 
-      content: $ProphecyFortuneLabel fortune_label {
-        margin-bottom: 12;
-        margin-top: 12;
-        margin-start: 12;
-        margin-end: 12;
+      content: ScrolledWindow {
+        propagate-natural-height: true;
+        hscrollbar-policy: never;
+
+        $ProphecyFortuneLabel fortune_label {
+          margin-bottom: 6;
+          margin-top: 6;
+          margin-start: 6;
+          margin-end: 6;
+        }
       };
 
       [bottom]
@@ -37,7 +42,7 @@ template $ProphecyWindow : Adw.ApplicationWindow {
         label: _("Ask Again");
         halign: center;
         hexpand: false;
-        margin-bottom: 24;
+        margin-bottom: 48;
         margin-top: 8;
         clicked => $on_ask_clicked();
       }
